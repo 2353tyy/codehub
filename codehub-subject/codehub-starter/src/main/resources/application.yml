@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: "072512"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.96.109.228:3306/codehub?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+#logging:
+#  config: classpath:log4j2-spring.xml
+#  level:
+#    root: INFO
+#    javax.activation: info
+#    org.apache.catalina: INFO
+#    org.apache.commons.beanutils.converters: INFO
+#    org.apache.coyote.http11.Http11Processor: INFO
+#    org.apache.http: INFO
+#    org.apache.tomcat: INFO
+#    org.springframework: INFO
+#    com.chinamobile.cmss.bdpaas.resource.monitor: DEBUG

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>com.huazai</groupId>
+    <artifactId>codehub-subject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <description>codehub-题目领域服务</description>
+    <modules>
+        <module>codehub-subject-api</module>
+        <module>codehub-application</module>
+        <module>codehub-domain</module>
+        <module>codehub-common</module>
+        <module>codehub-infra</module>
+        <module>codehub-starter</module>
+        <module>codehub-application/codehub-application-controller</module>
+        <module>codehub-application/codehub-application-job</module>
+        <module>codehub-application/codehub-application-mq</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>3.1.4</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</project>
